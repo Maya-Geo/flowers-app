@@ -5,7 +5,6 @@ const Settings = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.textHeading}></Text>
-
       <View>
         <Image
           style={styles.img}
