@@ -4,8 +4,6 @@ import { StyleSheet, Text, View, SafeAreaView, Image } from "react-native";
 const Files = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.pageHeading}>Files Page</Text>
-
       <View>
         <Image style={styles.gif} source={require("../../assets/files.gif")} />
       </View>
