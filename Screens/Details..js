@@ -44,6 +44,7 @@ const Details = (props) => {
             <ShareIcon name="sharealt" style={styles.headerIcons} size={24} />
           </View>
         </SafeAreaView>
+
         <View
           style={{
             width: 210,
@@ -52,6 +53,7 @@ const Details = (props) => {
             backgroundColor: BackgroundColor,
           }}
         ></View>
+
         <TouchableOpacity onPress={goBack} style={styles.backOpacity}>
           <BackIcon size={25} style={styles.backIcon} name="arrow-back-ios" />
           <Text style={styles.todiscoveryText}> To Discover </Text>
